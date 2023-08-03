@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div>
+      <label for="FName">First Name: *</label>
+      <input type="text" name="FName" />
+    </div>
+    <div class="div">
+      <label for="LName">Last Name: *</label>
+      <input type="text" name="LName" />
+    </div>
+    <div>
+      <label for="email">Email Address:* </label>
+      <input type="email" name="email" />
+    </div>
+    <div>
+      <label for="password">Password:*</label>
+      <input type="password" name="password" />
+    </div>
+    <div>
+      <label for="Cpassword">Confirm Password:*</label>
+      <input type="password" name="Cpassword" />
+    </div>
+    <div>
+      <label for="bday">Birthday:</label>
+      <input type="date" name="Bday" />
+    </div>
+    <p>Gender Identity:</p>
+    <div>
+      <label>Male</label>
+      <input type="radio" />
+      <label>Female</label>
+      <input type="radio" />
+      <label>Non-binary</label>
+      <input type="radio" />
+      <label>I prefer not to answer</label>
+      <input type="radio" />
+    </div>
+    <p>A short description about myself:</p>
+    <textarea cols="30" rows="5"></textarea>
+  </body>
+  <div>
+    <label>Favorite Language</label>
+    <select name="Favorite Language" id="">
+      <option value="Java">Java</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="Python">Python</option>
+      <option value="C++">C++</option>
+      <option value="GoLang">GoLang</option>
+    </select>
+  </div>
+  <div>
+    <input type="radio" />
+    <label>Yes, I would like to recieve periodic email updates</label>
+  </div>
+  <input type="submit" value="Create Account" />
+  <p>* Indicates a required field</p>
+</html>
