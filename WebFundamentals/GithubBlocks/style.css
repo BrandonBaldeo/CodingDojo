@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: cadetblue;
+  font-weight: 900;
+  font-size: 50px;
+  text-decoration: underline;
+}
+div {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+.red {
+  background-color: red;
+}
+img {
+  width: 200px;
+}
+footer {
+  text-align: center;
+  background-color: burlywood;
+  padding: 5px;
+  border: 2px solid black;
+}
